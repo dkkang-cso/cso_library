@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+
 def file_open(file):
     f = open(file, 'r')
     lines = f2. readlines()
@@ -36,5 +37,11 @@ def elsenum1(arr): # 두번째 else위치
         num3 = res_list1[0]
     return num3
 
+# list converting dictionary
+def LCD(list):
+    a = list
+    b=a[0::2]
+    c=a[1::2]
+    d=dict(zip(b,c))
 
 
